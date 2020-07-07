@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <div id="area">
+        <!-- Multiplicação-->
+        <input type="radio" name="radCal" id="mul" checked>
+        <label for="mul">Multiplicação</label>
+
+        <!--divisão-->
+        <input type="radio" name="radCal" id="div">
+        <label for="div">Divisao</label>
+
+        <!--adisão-->
+        <input type="radio" name="radCal" id="adi">
+        <label for="adi">adisao</label>
+
+        <!--subtração-->
+        <input type="radio" name="radCal" id="sub">
+        <label for="sub">subitraçao</label>
+
+        <p>Digite o primeiro valor</p>
+        <input type="number" id="n1">
+
+        <p>Digite o segundo valor</p>
+        <input type="number" id="n2">
+
+        <input type="button" value="click-aqui" onclick="pegar()">
+
+        <div id="area2">
+            <p id="demo"></p>
+        </div>
+    </div>
+</body>
+</html>
